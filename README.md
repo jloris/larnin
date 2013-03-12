@@ -1,4 +1,12 @@
+<<FROM GITHUB>>
+<<<<<<< HEAD
 # README for a newly created project.
+
+<<for posterity, I'm saving this, which shows what happens when you attempt
+a merge from remote to 'local' (c9.io).  The default README's from each end
+crashed>>
+
+<<FROM C9io>>
 
 There are a couple of things you should do first, before you can use all of Git's power:
 
@@ -16,3 +24,11 @@ That's it! If this doesn't work for you, please visit the excellent resources fr
 If you can't find your answers there, feel free to ask us via Twitter (@cloud9ide), [mailing list](groups.google.com/group/cloud9-ide) or IRC (#cloud9ide on freenode).
 
 Happy coding!
+
+<<FROM GITHUB>>
+=======
+larnin
+======
+
+A practice repo for learning basics of Git and Cloud9
+>>>>>>> daaea4b7daba096acab648dc470e83eab1d578fa
