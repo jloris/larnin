@@ -1,0 +1,15 @@
+Hello, this is my_junk, which I touched on my home laptop via the terminal,
+and now I'm editing it at Cloud9. I am learning to clone, add, commit, push and
+pull.
+
+It is all so very exciting.
+
+Imagine what it would be like if I knew how to program something!
+
+I am using Vim Mode on C9.  So far it looks like it has the Insert and Command
+modes, the latter of which lets me move around the screen and do some editing.
+I can do #yy, #dd, but not #p. I can move via hjkl, w and b, $ and ^, and gg and
+G. 
+
+
+
