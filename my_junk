@@ -11,5 +11,23 @@ modes, the latter of which lets me move around the screen and do some editing.
 I can do #yy, #dd, but not #p. I can move via hjkl, w and b, $ and ^, and gg and
 G. 
 
+So I just tried to push the above changes (lines 1-12) and I learned about
+non-fast-forward updates.  This is not a fast-forward update, because between the
+time I cloned (or more generally, pulled) and the time of the push from C9, I
+pushed from the local laptop terminal and updated the repo at Github to a new state.
+This update would not be building directly upon its ancestor, so it is not a 
+'fast-forward' update fo the repository.
+
+GitHub -- (REPO-A)
+C9 <-- clone (REPO-A)
+Mac <-- clone (REPO-A)
+Mac ... edit
+C9 ... edit
+Mac --> push (REPO-B, fast-forward of REPO-A)
+C9 --> push (REPO-C, non-fast-forward of REPO-A) XXX
+So...
+C9 <-- pull/merge (REPO-B)
+C9 ... edit conflicts
+C9 --> push (REPO-C, now a fast-forward of REPO-B)
 
 
