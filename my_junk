@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Hello, this is my_junk, which I touched on my home laptop via the terminal,
 and now I'm editing it at Cloud9. I am learning to clone, add, commit, push and
 pull.
@@ -31,3 +32,14 @@ C9 ... edit conflicts
 C9 --> push (REPO-C, now a fast-forward of REPO-B)
 
 
+=======
+I touched this file originally on my local filesystem on
+RLK's laptop. Then I pushed it to the github repo, then I
+pulled it to the Cloud9 clone, and I'm editing it there as
+well.  What happens when I attempt to merge these two edits?
+>>>>>>> e966bf88852566d388fd856446f6f7ee7f21ad36
+
+So the part above the ===== was written on C9 before and after first attempts
+to edit/commit/push on C9 after editing/committing/pushing on Mac terminal.
+Now I'm "fixing the conflicts", which means, I guess, editing and saving the
+file as the desired version.  I'm sure there are other options.
